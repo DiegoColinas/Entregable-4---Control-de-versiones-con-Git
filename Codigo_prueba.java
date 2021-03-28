@@ -7,12 +7,16 @@ public class Codigo_prueba {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("¿Quieres escribir hola mundo?(Si/No)");
-		String respuesta=sc.nextLine();
-		if(respuesta.equals("Si"))
-			System.out.println("Hola World");
-		else
-			System.out.println("Adios");
+		System.out.println("¿Que deseas escribir?\n"+"1. Hola Mundo\n"+"2. Hola Pepe\n"+"3. Sumar 2+2");
+		int respuesta=sc.nextInt();
+		switch(respuesta) {
+		case 1: System.out.println("Hola World");
+				break;
+		case 2: System.out.println("Hola Pepe");
+				break;
+		case 3: System.out.println(2+2);
+				break;
+		}
 	}
 
 }
