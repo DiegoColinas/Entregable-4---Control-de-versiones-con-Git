@@ -17,6 +17,10 @@ public class Codigo_prueba {
 		case 3: System.out.println(2+2);
 				break;
 		}
+		
+		for (int i = 0; i < 10; i++) {
+			System.out.println(i+1);
+		}
 	}
 
 }
